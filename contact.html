@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>Portfolio Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -9,8 +9,6 @@
 	<header>
 
 		<div id="name">Jeff Lutz</div>
-
-		<img src="">
 
 		<links class="header">
 			<a href="">About</a>
@@ -20,46 +18,54 @@
 
 	</header>
 
-	<div class="container">
+	<section class="container2">
 
 		<section id="Contact">
 		
-			<h1>Contact</h1>
+			<h1>Contact Me</h1>
 
-		<div class="Contact-form">
-  			<form action="/action_page.php">
+			<form action="/action_page.php">
+  				Name:<br>
+  				<input type="text" value="Your Name"><br>
+  				Email:<br>
+  				<input type="text" name="Email" value="JSmith@whatever.com"><br>
+  				Message:<br>
+  				<input type="text2" value=""><br>
+  				<input type="submit" value="Submit">
+			</form>
+		
+		</section>
+		
+		<section id="Connect">
+			
+			<h2>Connect With Me</h2>
 
-    		<label for="fname">Name</label>
-    		<input type="text" id="name" name="name" placeholder="Your name..">
-
-    		<label for="fname">Email</label>
-    		<input type="text" id="email" name="email" placeholder="Your email..">
-
-    		<label for="subject">Subject</label>
-    		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-
-  </form>
-</div>
-	
+			<links class="Connect">
+				<p class="github">
+					<a href="https://www.github.com">
+					<img src="assets/images/github.jpeg" alt="Go to GitHub" width="64" height="64" border="0">
+					</a>
+				</p>
+				<p class="linkedin">
+					<a href="https://www.linkedin.com">
+					<img src="assets/images/linkedin.jpeg" alt="Go to LinkedIn!" width="64" height="64" border="0">
+					</a>
+				</p>
+				<p class="stack">
+					<a href="https://www.stackoverflow.com">
+					<img src="assets/images/stackoverflow.jpeg" alt="Go to Stackoverflow!" width="64" height="64" border="0">
+					</a>
+				</p>
+			</links>
+		
 		</section>
 
-		<h1>Connect With Me</h1>
-
-		<section id="Connect">
-			<links class="Connect">
-				<a href="">????????</a>
-				<a href="">LinkedIN</a>
-				<a href="">StackOverflow</a>
-			</links>
-
-		<footer>
+	</section>
+	
+	<footer>
 			@ Copyright 2017 Jeff lutz
-		</footer>
-
-
-	</div>
+	</footer>
 
 </body>
+
 </html>
