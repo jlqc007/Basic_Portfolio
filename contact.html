@@ -2,65 +2,82 @@
 <html>
 <head>
 	<title>Portfolio Home</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
-	<header>
-
-		<div id="name">Jeff Lutz</div>
-
-		<links class="header">
-			<a href="">About</a>
-			<a href="">Portfolio</a>
-			<a href="">Contact</a>
-		</links>
-
-	</header>
-
-		<section id="Contact">
 		
-			<h1>Contact Me</h1>
+		<div id="header">
+			
+			<div id="nametag">
+			<h1 id="name">Jeff Lutz</h1>
+		
+			<links class="links">
+				<a href="Index.html" target="_blank">About  |</a>
+				<a href="portfolio.html" target="_blank">  Portfolio  |</a>
+				<a href="contact.html" target="_blank">Contact</a>
+			</links>
+			</div>
+
+		</div>
+
+	<div id="container">
+
+		<div id="Main-Content">
+		
+		<div id="h2">
+			<h2 id="about">Contact</h2>
+		</div>
+			
+			<div id="paragraph">
 
 			<form action="/action_page.php">
   				Name:<br>
-  				<input type="text" value="Your Name"><br>
+  				<input type="text" name="Name" value="Your Name"><br>
   				Email:<br>
-  				<input type="text" name="Email" value="JSmith@whatever.com"><br>
-  				Message:<br>
-  				<input type="text2" value=""><br>
+  				<input type="text" name="Email" value="johnsmith@whatever.com"><br>
+				Message:<br>
+  				<textarea name="message" rows="10" cols="30">
+				</textarea>
+  				<br><br>
   				<input type="submit" value="Submit">
 			</form>
+
+			</div>
 		
-		</section>
+		</div>
 		
-		<section id="Connect">
+		<div id="Sidebar">
 			
-			<h2>Connect With Me</h2>
+			<div id="h3">
+				<h3 id="connect">Connect With Me</h3>
+			</div>
 
 			<links class="Connect">
 				<p class="github">
-					<a href="https://www.github.com">
+					<a href="https://github.com/jlqc007" target="_blank">
 					<img src="assets/images/github.jpeg" alt="Go to GitHub" width="64" height="64" border="0">
 					</a>
 				</p>
 				<p class="linkedin">
-					<a href="https://www.linkedin.com">
+					<a href="https://www.linkedin.com/in/jeff-lutz-379244143/" target="_blank">
 					<img src="assets/images/linkedin.jpeg" alt="Go to LinkedIn!" width="64" height="64" border="0">
 					</a>
 				</p>
 				<p class="stack">
-					<a href="https://www.stackoverflow.com">
+					<a href="https://stackoverflow.com/users/8003916/jlqc007?tab=profile" target="_blank">
 					<img src="assets/images/stackoverflow.jpeg" alt="Go to Stackoverflow!" width="64" height="64" border="0">
 					</a>
 				</p>
 			</links>
 		
-		</section>
+		</div>
 	
-	<footer>
+	</div>
+
+		<div id="footer">
 			@ Copyright 2017 Jeff lutz
-	</footer>
+		</div>
 
 </body>
 
