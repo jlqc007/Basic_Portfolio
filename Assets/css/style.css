@@ -117,8 +117,8 @@ p{
 }
 
 #footer {
-    line-height: 4.5;
     clear: both;
+    line-height: 4.5;
     background: #666666;
     height: 75px;
     color: white;
